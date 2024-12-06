@@ -60,6 +60,7 @@ def select_images():
 def apply_segmentation(image, masks, class_ids):
     """Applies segmentation masks to the image."""
     for mask, class_id in zip(masks, class_ids):
+        # COLORS NEED TO BE UPDATED
         color = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0), 
                  (255, 0, 255), (0, 255, 255), (128, 0, 128), (128, 128, 0),
                  (0, 128, 128), (0, 0, 128), (255, 128, 0), (128, 255, 0), 
