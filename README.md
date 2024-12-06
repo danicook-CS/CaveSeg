@@ -2,6 +2,8 @@
 ## Overview: 
 The CAVESEG model uses YOLOv8 for efficient object detection with image segmentation. This guide outlines the installation process and provides instructions for running the model using a graphical user interface (GUI).
 
+The files uploaded were created to go with the CaveSeg model and MMSegmentation please use both resources as well as the files here.
+
 # Install process: 
 
 Install Pytorch according to requirements: https://pytorch.org/get-started/locally/
@@ -38,7 +40,7 @@ Refer to the documentation linked above for issues related to PyTorch and Ultral
 
 # Setting Up the MMSegmentation Library and Using the CaveSeg Model
 ## Step 1: Install the MMSegmentation Library
-Visit the MMSegmentation GitHub repository and follow the installation guide provided in the "Get Started" section.
+Visit the MMSegmentation GitHub repository: https://github.com/open-mmlab/mmsegmentation and follow the installation guide provided in the "Get Started" section: https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/get_started.md#installation .
 Ensure you adhere to the following best practices during installation:
 Download and install up-to-date versions of all required packages and tools. Using outdated dependencies may cause errors during setup or execution.
 Create and activate a dedicated virtual environment for your MMSegmentation setup. This ensures package compatibility and isolates the environment from conflicts with other installations.
@@ -50,7 +52,7 @@ Occasionally, packages or resources may install outside of the virtual environme
 ## Step 3: Setting Up the CaveSeg Model
 To use the CaveSeg model with the MMSegmentation library:
 Place the CaveSeg model files and folders in the MMSegmentation directory. These files should include:
-Configs: Contains configuration files for the model.
+Configs: Contains configuration files for the model. 
 Demo: Demonstrates how the model functions.
 Tools: Includes helper scripts and utilities.
 Work_dirs: Directory for saving outputs and intermediate results.
@@ -71,5 +73,5 @@ Ensure the MMSegmentation library is organized as per the instructions. The Cave
 ## Environment Setup:
 Always work within the virtual environment you created for MMSegmentation. Run all commands, upload resources, and make modifications within this environment to avoid errors.
 ## Ideal Practice:
-Regularly refer to the MMSegmentation documentation for updates or additional instructions. This ensures compatibility with the latest features and tools.
+Regularly refer to the MMSegmentation documentation " https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en " for updates or additional instructions. This ensures compatibility with the latest features and tools.
 By carefully following these steps and addressing potential issues proactively, you can successfully set up the MMSegmentation library and integrate the CaveSeg model for use.
